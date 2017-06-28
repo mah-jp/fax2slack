@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-# fax2slack.pl (Ver.20170328) by Masahiko OHKUBO <https://github.com/mah-jp/fax2slack>
+# fax2slack.pl (Ver.20170628) by Masahiko OHKUBO <https://github.com/mah-jp/fax2slack>
 # usage: fax2slack.pl [-n] [-i INIFILE]
 
 use strict;
@@ -115,6 +115,7 @@ sub PICKUP_FAX {
 			}
 		}
 	}
+	@data_fax = sort(@data_fax);
 	return(\@data_fax);	
 }
 
