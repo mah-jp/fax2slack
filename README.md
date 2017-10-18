@@ -1,15 +1,12 @@
-fax2slack.pl - Fax incoming Notifier for Slack
-==============================================
+# fax2slack.pl - Fax incoming Notifier for Slack
 
-What is this?
--------------
+## What is this?
 
 FUJI XEROXの複合機 (動作確認はDocuCentre-IV C2263Nで行いました) のウェブ管理画面にある「ジョブ履歴」の内容を実行時にチェックし、新しいFAX受信があれば、受信時刻と枚数をSlackに通知します。
 
 作者が勤務先の業務にて作成し実際に使用しているツールを、情報共有・対外発信を推奨している会社方針に基づき、GitHubで公開しています。
 
-USAGE
------
+## USAGE
 
 数分間隔で定期実行されることを前提に作成しました。必要となるPerlモジュールは、動作環境にcpanmなどでインストールしておいてください。
 
@@ -18,8 +15,13 @@ USAGE
 
 実行前には、あらかじめ、INIファイル内に、Slackのwebhook URLや、複合機のIPアドレスなどの設定を記述しておく必要があります。
 
-AUTHOR
-------
+## AUTHOR
 
 大久保 正彦 (Masahiko OHKUBO) <[mah@remoteroom.jp](mailto:mah@remoteroom.jp)> <[https://twitter.com/mah_jp](https://twitter.com/mah_jp)>
 - 勤務先: アイクラフト株式会社 <[http://www.icraft.jp/](http://www.icraft.jp/)>
+
+## COPYRIGHT and LICENSE
+
+This software is copyright (c) 2017 by Masahiko OHKUBO.
+
+This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language system itself.
