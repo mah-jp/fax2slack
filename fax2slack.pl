@@ -163,8 +163,6 @@ fax2slack.pl [-n] [-i INIFILE]
 
 大久保 正彦 (Masahiko OHKUBO) <mah@remoteroom.jp> <https://twitter.com/mah_jp>
 
-勤務先: アイクラフト株式会社 <http://icraft.jp/>
-
 =head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2017 by Masahiko OHKUBO.
